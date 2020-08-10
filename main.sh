@@ -16,6 +16,7 @@ function gp() {
     read -p "Continue? [Y/n](Y)::" yn
     printf "\n"
     printf "=================================="
+    printf "\n"
     case $yn in
         [Yy]* ) git push ; break;;
         [Nn]* ) git reset --hard HEAD~ ; break;;
