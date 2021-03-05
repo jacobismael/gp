@@ -1,6 +1,6 @@
 #!/bin/bash
 function gp() {
-  git add .
+  git add -A
   printf "\n"
   printf "=================================="
   printf "\n"
